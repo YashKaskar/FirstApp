@@ -25,4 +25,7 @@ app.get('/cycle', (req, res) => {
     res.send('Lets go for a ride')
 })
 
-module.exports = index;
+
+app.listen(8080, () => {
+    console.log("Listing On Port 8080")
+})
